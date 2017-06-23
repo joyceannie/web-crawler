@@ -65,7 +65,6 @@ public class Crawler {
                 
                 //Keeping track of previous web server visited to maintain politeness policy
                 previousServer = new URL(url).getHost();
-               
 			}
 			fileReader.close();
         } 
